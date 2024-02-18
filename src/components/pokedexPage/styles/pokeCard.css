@@ -1,0 +1,171 @@
+article {
+    /* background-color: darkgoldenrod; */
+    /* border: 5px solid; */
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    gap: 5px;
+    height: auto;
+    min-height: 400px;
+    padding: 10px;
+}
+
+
+.poke-card:hover {
+    transform: scale(1.05);
+}
+
+
+article div {
+    
+}
+
+.poke-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    /* height: 350px; */
+    background-color: beige;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+    border-radius: 20px 20px 
+}
+
+.poke-info div {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.poke-info figure {
+    position: relative;
+    
+}
+
+.poke-title{
+    
+
+}
+
+.poke-types {
+    
+}
+
+.poke-parr{
+    
+
+}
+
+hr {
+    width: 90%;
+}
+
+.poke-card hr {
+    
+}
+
+.poke-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 0px;
+    
+}
+
+.poke-stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slot2::before {
+    
+}
+
+/* colores de fondo dinamico */
+.normal {
+    background-color: bisque;
+}
+
+.fighting {
+    background-color: rgb(132, 43, 43);
+}
+
+.flying {
+    background-color: rgb(158, 209, 209);
+}
+
+.poison {
+    background-color: rgb(51, 16, 83);
+}
+
+.ground {
+    background-color: rgb(104, 87, 43);
+}
+
+.rock {
+    background-color: dimgrey;
+}
+
+.bug {
+    background-color: cornflowerblue;
+}
+
+.ghost {
+    background-color: khaki;
+}
+
+.steel {
+    background-color: lightslategrey;
+}
+
+.fire {
+    background-color: rgb(226, 144, 43);
+}
+
+.water {
+    background-color: aquamarine;
+}
+
+.grass {
+    background-color: green;
+}
+
+.electric {
+    background-color: rgb(156, 147, 67);
+}
+
+.psychic {
+    background-color: brown;
+}
+
+.ice {
+    background-color: darkturquoise;
+}
+
+.dragon {
+    background-color: crimson;
+}
+
+.dark {
+    background-color: rgb(50, 46, 41);
+}
+
+.fairy {
+    background-color: deeppink;
+}
+
+.unknown {
+    background-color: darkolivegreen;
+}
+
+.shadow {
+    background-color: dimgray;
+}
