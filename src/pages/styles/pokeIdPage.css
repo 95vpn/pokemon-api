@@ -166,13 +166,13 @@ hr {
 
 .contenedor{
     font-family: 'Times New Roman', Times, serif;
-    
+    color: beige;
     font-weight: 500;
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid rgba(0, 0, 0, 1);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+    border: 2px solid rgb(200, 197, 197, 0.1);
+    box-shadow: 10px 10px 20px rgb(225, 224, 224, 0.1);
 }
 
 .contenedor span{
@@ -225,8 +225,8 @@ hr {
     border: 1px solid cyan;
     width: 80%;
     background-color: linear-gradient(450deg, darkblue, black);
-    border: 2px solid rgba(0, 0, 0, 1);
-    box-shadow: 10px 20px 30px rgba(0, 0, 0, 1);
+    border: 2px solid rgb(200, 197, 197, 0.1);
+    box-shadow: 10px 10px 20px rgb(225, 224, 224, 0.1);
     border-radius: 10px;
     padding-bottom: 5%;
 }
