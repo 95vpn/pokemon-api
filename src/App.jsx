@@ -11,7 +11,19 @@ function App() {
 
   return (
     <div className='app-container'>
-      <h1>Pokedex</h1>
+      <div className='caja1'>
+        <div className='caja2'>
+          <div className='caja3'>
+            <span>POKEDEX</span>
+            <div className='circle1'>
+              <div className='circle2'>
+                <div className='circle3'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1></h1>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route element={<ProtectedRoutes/>}>

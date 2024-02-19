@@ -1,17 +1,69 @@
 .pokedex {
     padding-bottom: 25px;
+    padding: 20px;
 }
 
-.poke-header {
+.pokedex-header {
     display: flex;
     flex-direction: column;
     margin: 30px;
     gap: 10px;
+    align-items: center;
 }
+
+.pokedex-title {
+    display: flex;
+    white-space: pre-line;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center; 
+}
+
+.pokedex-title :first-child {
+    display: flex;
+    color: rgb(244, 172, 172);
+    justify-content: center;
+}
+
+.pokedex-title :last-child {
+    display: flex; 
+}
+
+.pokedex-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+.container-form {
+    display: flex;
+    gap: 10px;
+}
+.container-form  input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.container-form  button{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    transition: .5s ease-in-out;
+}
+
+.container-form  button:hover{
+    background-color:  rgb(244, 172, 172);;
+    transform: scale(1.1);
+}
+
 
 .poke-header div {
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -25,4 +77,20 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
+}
+
+@media (min-width: 800px) {
+
+    .pokedex-title {
+        font-size: 24px;
+    }
+
+    .pokedex-form input {
+        font-size: 24px;
+        padding: 5px;
+    }
+    .pokedex-form button {
+        font-size: 24px;
+    }
+
 }

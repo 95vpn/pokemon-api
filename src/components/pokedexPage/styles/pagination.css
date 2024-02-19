@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+    gap: 25px;
+    margin: 25px 0;
+    padding: 20px;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.pagination button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+
+.pagination button:hover {
+    background-color: rgb(244, 172, 172);;
+    transform: scale(1.1);
+}
+
+@media  (min-width: 800px) {
+    .pagination {
+        font-size: 24px;
+    }
+
+    .pagination button {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,97 @@
+.container-homeName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    padding-top: 50px;
+}
+
+.container-homeName span {
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+    align-items: center;
+}
+.homeName-title {
+    display: flex;
+    padding: 20px;
+    height: 150px;
+    font-size: 24px;
+}
+
+.homeName-subtitle {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    justify-content: center;
+}
+
+.homeName-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.homeName-form  input{
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+.homeName-form  button{
+    padding: 5px 30px;
+    border-radius: 20px;
+    transition: .10s ease-in-out;
+}
+
+.homeName-form  button:hover{
+    background-color: rgb(148, 79, 105);
+    color: bisque;
+}
+
+.homeName-form  button:active{
+    color: bisque;
+}
+
+@media (min-width: 800px) {
+
+    .homeName-title {
+        font-size: 44px;
+        font-weight: 700;
+    }
+    .homeName-subtitle {
+        display: flex;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .homeName-form  input{
+        padding: 5px 30px;
+        border-radius: 20px;
+        font-size: 24px;
+    }
+
+    .homeName-form  button{
+        padding: 5px 30px;
+        border-radius: 20px;
+        transition: .10s ease-in-out;
+        font-size: 24px;
+    }
+
+    .homeName-form  button:hover{
+        background-color: rgb(148, 79, 105);
+        color: bisque;
+    }
+
+    .homeName-form  button:active{
+        color: bisque;
+    }
+
+    }

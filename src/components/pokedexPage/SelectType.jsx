@@ -2,6 +2,7 @@ import React, {useEffect, useRef } from 'react';
 import useFetch from '../../hooks/useFetch';
 import { setPokemonName } from '../../store/slices/pokemonName.slice';
 import { useDispatch } from 'react-redux';
+import './styles/selectType.css'
 
 const SelectType = ({ setSelectValue }) => {
 
@@ -26,7 +27,7 @@ const SelectType = ({ setSelectValue }) => {
     // console.log(handleChange)
 
   return (
-    <select onChange={handleChange} ref={textSelect}> SelectType
+    <select className='container-select' onChange={handleChange} ref={textSelect}> SelectType
         <option value="allPokemons">allPokemons</option>
         {
             types?.results.map(type => (
