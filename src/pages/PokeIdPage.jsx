@@ -70,8 +70,10 @@ const PokeIdPage = () => {
                   !stat.stat.name.includes('special') &&
                   <li key={stat.stat.url}>
                     <span>{stat.stat.name}:</span>
-                    <span>{stat.base_stat} / 150 </span> 
-                    
+                    <div className='stat'>
+                      <span  style={{ width: `${(stat.base_stat / 150) * 100}%` }}></span>
+                      <p>{stat.base_stat} / 150</p>
+                    </div>
                   </li>
                 ))
               }
@@ -86,7 +88,7 @@ const PokeIdPage = () => {
 
       <div className='movements'>
         <span>Movements</span>
-        <ul className='list-moves'> 
+        <ul className='list-moves'>
           {
             pokeData?.moves.map(move => (
               <li key={move.move.url}>{move.move.name}</li>

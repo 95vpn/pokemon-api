@@ -27,6 +27,7 @@ const HomePage = () => {
   
   return (
     <div className='container-homeName'>
+      
       <span className='homeName-title'>¡Hola{text}!</span>
       <h2 className='homeName-subtitle'>Para poder comenzar dame tu nombre</h2>
       <form className='homeName-form' onSubmit={handleSubmit} >
