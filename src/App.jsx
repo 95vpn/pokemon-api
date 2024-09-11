@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import PokedexPage from './pages/PokedexPage'
 import PokeIdPage from './pages/PokeIdPage'
@@ -14,7 +14,7 @@ function App() {
       <div className='caja1'>
         <div className='caja2'>
           <div className='caja3'>
-            <span>POKEDEX</span>
+            <span><Link to="/">POKEDEX</Link></span>
             <div className='circle1'>
               <div className='circle2'>
                 <div className='circle3'></div>
